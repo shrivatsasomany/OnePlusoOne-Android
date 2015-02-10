@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.main.oneplusonegame.OpeningPage" >
+
+    <item
+        android:id="@+id/camera_button"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:orderInCategory="1"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_camera_string">
+    </item>
+    <item
+        android:id="@+id/login_button"
+        android:icon="@drawable/ic_menu_invite"
+        android:orderInCategory="2"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_login_full"
+        android:titleCondensed="@string/menu_login_condensed">
+    </item>
+    <item
+        android:id="@+id/logout_button"
+        android:icon="@drawable/ic_menu_blocked_user"
+        android:orderInCategory="2"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_logout_full"
+        android:titleCondensed="@string/menu_logout_condensed">
+    </item>
+    <item
+        android:id="@+id/admin_registration_button"
+        android:icon="@drawable/ic_menu_allfriends"
+        android:orderInCategory="3"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_register_admin">
+    </item>
+    <item
+        android:id="@+id/admin_options"
+        android:icon="@drawable/ic_menu_paste_holo_light"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_admin_management">
+    </item>
+    <item
+        android:id="@+id/profile_button"
+        android:icon="@drawable/ic_menu_friendslist"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_profile">
+    </item>
+
+</menu>

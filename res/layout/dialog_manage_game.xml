@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/dialog_manage_questions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_questions" />
+
+    <Button
+        android:id="@+id/dialog_manage_quantifiers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_quantifiers" />
+
+    <Button
+        android:id="@+id/dialog_manage_show_answers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/manage_view_answers" />
+
+</LinearLayout>

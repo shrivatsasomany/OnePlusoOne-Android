@@ -1,0 +1,12 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:colorPrimary">@color/orange</item>
+        <item name="android:colorPrimaryDark">@color/dark_orange</item>
+        <item name="android:colorAccent">@color/orange</item>
+        <!-- enable window content transitions -->
+        <item name="android:windowContentTransitions">true</item>
+        <!-- specify shared element transitions -->
+    </style>
+
+</resources>

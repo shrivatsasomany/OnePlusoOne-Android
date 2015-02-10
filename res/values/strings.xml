@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">One + One</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_button_red">Creation</string>
+    <string name="main_button_green">Discovery</string>
+    <string name="main_button_yellow">Juxtaposition</string>
+    <string name="main_button_orange">Connection</string>
+    <string name="title_activity_splash">One + One</string>
+    <string name="title_activity_discovery">Discovery</string>
+    <string name="title_activity_juxtaposition">Juxtaposition</string>
+    <string name="title_activity_one_plus_one">Connection</string>
+    <string name="title_activity_mood">Mood</string>
+    <string name="server_url">http://75.102.77.56:3000/</string>
+    <string name="right_arrow">&#x2192;</string>
+    <string name="menu_login_full">Sign In</string>
+    <string name="menu_login_condensed">Login</string>
+    <string name="menu_register_admin">Register</string>
+    <string name="menu_logout_full">Sign Out</string>
+    <string name="menu_logout_condensed">Logout</string>
+    <string name="menu_admin_management">Manage Game</string>
+    <string name="menu_camera_string">Scan Code</string>
+    <string name="menu_profile">Answers</string>
+    <string name="confirm_login">You\'re logged in!</string>
+    <string name="confirm_logout">You\'re logged out!</string>
+    <string name="confirm_answer_post">We\'ve received your answer, thanks!</string>
+    <string name="login_error">Couldn\'t log you in, check your credentials!</string>
+    <string name="password_error">Your passwords don\'t match!</string>
+    <string name="duplicate_user_error">You\'ve already registered!</string>
+    <string name="admin_registration">User will register with admin privileges</string>
+    <string name="dialog_qa_button">Answer!</string>
+    <string name="dialog_answer_title">My Answer&#8230;</string>
+    <string name="dialog_answer_hint">Hint: Long press Answer! to include a photo</string>
+    <string name="dialog_answer_location">Location</string>
+    <string name="dialog_answer_spinner">Hmm, I feel</string>
+    <string name="dialog_new_question_text">Question Text</string>
+    <string name="dialog_new_question_description">Description</string>
+    <string name="dialog_new_question_type">Type</string>
+    <string name="dialog_new_question_title">New Question</string>
+    <string name="dialog_new_question_quantifier">Quantifier?</string>
+    <string name="dialog_new_question_create">Create</string>
+    <string name="dialog_new_question_location">Location</string>
+    <string name="incomplete_fields">Oops, did you forget something?</string>
+    <string name="not_logged_in">Whoops, you have to log in first!</string>
+    <string name="blank_answer">Yikes, you can\'t leave your answer blank!</string>
+    <string name="title_activity_answers">Answers</string>
+    <string name="title_activity_manage_questions">Manage Questions</string>
+    <string name="title_activity_manage_quantifiers">Manage Quantifiers</string>
+    <string name="manage_questions_title">All Questions</string>
+    <string name="alert_confirm">Are You Sure?</string>
+    <string name="alert_yes">Yep</string>
+    <string name="alert_no">Whoa, no!</string>
+    <string name="question_delete_message">Shall we delete this question?</string>
+    <string name="quantifier_delete_message">Shall we delete this quantifier?</string>
+    <string name="manage_questions">Manage Questions</string>
+    <string name="manage_quantifiers">Manage Quantifiers</string>
+    <string name="manage_view_answers">Browse Answers</string>
+    <string name="created_question">We\'ve successfuly received the question!</string>
+    <string name="created_quantifier">We\'ve successfuly received the quantifier!</string>
+    <string name="deleted_question">Poof, the question is gone!</string>
+    <string name="deleted_quantifier">Poof, the quantifier is gone!</string>
+    <string name="error_deleting_question">Oh no, we couldn\'t delete the question.</string>
+    <string name="error_deleting_quantifier">Oh no, we couldn\'t delete the quantifier.</string>
+    <string name="error_adding_question">Oh no, we didn\'t receive the question.</string>
+    <string name="error_adding_quantifier">Oh no, we didn\'t receive the quantifier.</string>
+    <string name="dialog_qa_button_show_answers">Show Answers</string>
+    <string name="answers_filter_quantifier_title">Filter by Quantifier</string>
+    <string name="answers_filter_location_title">Filter by Location</string>
+    <string name="answers_filter_button">Filter</string>
+    <string name="activity_quantifier_title">All Quantifiers</string>
+    <string name="activity_quantifier_button">Create</string>
+
+    <string-array name="user_roles">
+        <item>Student</item>
+        <item>Faculty</item>
+        <item>Staff</item>
+    </string-array>
+    <string-array name="user_roles_admin">
+        <item>Admin</item>
+    </string-array>
+
+    <string name="title_activity_manage_game">ManageGame</string>
+    <string name="title_activity_upload_qr">Upload QR COdes</string>
+
+</resources>

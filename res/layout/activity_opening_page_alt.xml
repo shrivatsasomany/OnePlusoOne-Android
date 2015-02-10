@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.main.oneplusonegame.OpeningPage" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/opening_page_creation"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/red_button_selector"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/main_button_red"
+                android:textSize="25sp"
+                android:transitionName="creation_button"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/opening_page_discovery"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/green_button_selector"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/main_button_green"
+                android:textSize="25sp"
+                android:transitionName="discovery_button"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/opening_page_juxtaposition"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/yellow_button_selector"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/main_button_yellow"
+                android:textSize="25sp"
+                android:transitionName="juxtaposition_button"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="3dp" >
+
+            <TextView
+                android:id="@+id/opening_page_oneplusone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/orange_button_selector"
+                android:elevation="5dp"
+                android:gravity="center"
+                android:text="@string/main_button_orange"
+                android:textSize="25sp"
+                android:transitionName="oneplusone_button"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
